@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Construction and Development for Housing</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <nav>
+      <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section id="home">
+    <h1>Welcome to our Construction and Development Website</h1>
+    <p>Discover top-quality housing solutions tailored to your needs.</p>
+    <a href="#contact" class="cta-button">Get Started</a>
+  </section>
+
+  <section id="services">
+    <h2>Our Services</h2>
+    <p>We offer a wide range of construction and development services:</p>
+    <ul>
+      <li>New Home Construction</li>
+      <li>Remodeling and Renovations</li>
+      <li>Architectural Design</li>
+      <li>Interior Design</li>
+      <li>Project Management</li>
+    </ul>
+  </section>
+
+  <section id="projects">
+    <h2>Our Projects</h2>
+    <p>Take a look at some of our completed projects:</p>
+    <div class="project">
+      <img src="project1.jpg" alt="Project 1">
+      <h3>Project 1</h3>
+    </div>
+    <div class="project">
+      <img src="project2.jpg" alt="Project 2">
+      <h3>Project 2</h3>
+    </div>
+    <!-- Add more project divs as needed -->
+  </section>
+
+  <section id="contact">
+    <h2>Contact Us</h2>
+    <p>Have a question or want to discuss your housing needs? Reach out to us:</p>
+    <form action="contact.php" method="POST">
+      <input type="text" name="name" placeholder="Your Name" required>
+      <input type="email" name="email" placeholder="Your Email" required>
+      <textarea name="message" placeholder="Your Message" required></textarea>
+      <button type="submit">Send Message</button>
+    </form>
+  </section>
+
+  <footer>
+    <p>&copy; 2023 Construction and Development for Housing. All rights reserved.</p>
+  </footer>
+</body>
+</html>
